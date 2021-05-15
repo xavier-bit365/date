@@ -1,0 +1,4 @@
+<view>事件：{{event.event}},日期：{{event.date}}</view>
+ 更新事件时间
+ <input bindinput="getdate"></input>
+ <button type="primary" bindtap="update">更新事件时间</button>

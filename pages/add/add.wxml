@@ -1,0 +1,2 @@
+<!--pages/add/add.wxml-->
+<button bindtap="add">点击添加数据</button>

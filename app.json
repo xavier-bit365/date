@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room",
+    "pages/02-calendar/02-calendar",
+    "pages/logs/logs",
+    "pages/demo1/demo1",
+    "pages/demo2/demo2",
+    "pages/add/add",
+    "pages/test1/test1",
+    "pages/test2/test2",
+    "pages/tiaozhuan/tiaozhuan"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#8D91FF",
+    "navigationBarTitleText": "记事日历",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "tabBar": {
+    "selectedColor": "#6887e1",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "img/t1.png",
+        "selectedIconPath": "img/t2.png"
+      },
+      {
+        "pagePath": "pages/02-calendar/02-calendar",
+        "text": "记事日历",
+        "iconPath": "img/t7.png",
+        "selectedIconPath": "img/t8.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+输入事件名字
+<input bindinput="getevent"></input>
+输入事件具体日期
+<input bindinput="getdate"></input>
+<button bindtap="addevent" type='primary'>添加事件</button>
+
+<view wx:for="{{list}}">
+  <view bindtap="goDetail" data-id="{{item._id}}">事件名字:{{item.event}},日期:{{item.date}}</view>
+</view>
